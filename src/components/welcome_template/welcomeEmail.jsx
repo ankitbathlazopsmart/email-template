@@ -32,7 +32,7 @@ const WelcomeTemplate = (props) => {
                                         style="-ms-interpolation-mode: bicubic;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;"
                                     />
                                 </p>
-                                <h1>Welcome to {application.name}!</h1>
+                                <h1>Welcome to {application?.name}!</h1>
                                 <p>
                                     Thank you for signing up. Please verify your
                                     email address by clicking the following
@@ -49,7 +49,7 @@ const WelcomeTemplate = (props) => {
                                 <br />
                                 Thanks!
                                 <br />
-                                <strong>{application.name}</strong>
+                                <strong>{application?.name}</strong>
                                 <br />
                                 <br />
                                 <hr style="border: 2px solid #EAEEF3; border-bottom: 0; margin: 20px 0;" />
